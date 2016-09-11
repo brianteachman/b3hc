@@ -1,0 +1,29 @@
+{
+  "name": "b3hc",
+  "version": "1.0.0",
+  "description": "Raspberry Pi smart home hub on resin.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianteachman/b3hc.git"
+  },
+  "keywords": [
+    "resin.io",
+    "webserver",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Brian Teachman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianteachman/b3hc.git/issues"
+  },
+  "homepage": "https://github.com/brianteachman/b3hc.git#readme",
+  "dependencies": {
+    "express": "*"
+  }
+}
